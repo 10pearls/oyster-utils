@@ -1,0 +1,44 @@
+{
+    "name": "oyster-utils",
+    "version": "0.0.1",
+    "description": "Utils Library",
+    "main": "./lib/index.js",
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mideveloper/oyster-utils.git"
+    },
+    "author": {
+        "name": "mideveloper"
+    },
+    "license": "GPL-2.0",
+    "bugs": {
+        "url": "https://github.com/mideveloper/oyster-utils/issues"
+    },
+    "dependencies": {
+        "lodash": "~4.0.0",
+        "winston": "~2.2.0",
+        "winston-daily-rotate-file": "~1.0.1",
+        "hold": "0.0.10",
+        "dateformat": "~1.0.11"
+    },
+    "devDependencies": {
+        "grunt-cli": "*",
+        "grunt": "*",
+        "mocha": "*",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-jshint": "~0.8.0",
+        "sinon": "~1.7.3",
+        "supertest": "~0.8.2",
+        "chai": "~3.5.0",
+        "chai-as-promised": "~4.1.0",
+        "grunt-mocha-test": "~0.8.1",
+        "jshint-stylish": "~0.1.5",
+        "grunt-newer": "~0.6.1",
+        "load-grunt-tasks": "~0.3.0",
+        "time-grunt": "~0.2.9",
+        "grunt-concurrent": "~0.4.3"
+    }
+}
