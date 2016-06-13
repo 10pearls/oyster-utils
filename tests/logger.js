@@ -7,5 +7,6 @@ describe("should log ", function() {
         global.Logger.error("failed");
         global.Logger.info("test run");
         global.Logger.crash("test crash");
+        global.Logger.web("test web");
     });
 });
